@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - WebCorp</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%233b82f6' rx='15'/%3E%3Ctext x='50' y='58' font-family='Inter, Arial, sans-serif' font-size='50' font-weight='800' fill='white' text-anchor='middle'%3E%3Ctspan dy='5'%3E%3C/tspan%3EWC%3C/text%3E%3C/svg%3E">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container">
+    <nav class="navbar">
+      <a href="index.html" class="logo">WebCorp</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section>
+      <h2>About WebCorp</h2>
+      <div class="card">
+        <p>I'm a freelance web designer and developer focused on building websites that actually work for your business. Every site I build is custom-coded to match your brand, your goals, and your audience.</p>
+        <p>No page builders. No bloat. Just clean, fast, responsive websites that you own 100%.</p>
+      </div>
+    </section>
+<!-- FAQ SECTION -->
+<section>
+  <h2>Frequently Asked Questions</h2>
+  <div class="grid">
+
+    <div class="card faq-item" onclick="toggleFAQ(this)">
+      <div class="faq-question">
+        <h3>How long does a website take?</h3>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Most 4-page sites are done in 7-14 days. Landing pages can be ready in 3-5 days. I'll give you a timeline before we start.</p>
+      </div>
+    </div>
+
+    <div class="card faq-item" onclick="toggleFAQ(this)">
+      <div class="faq-question">
+        <h3>Do I own the website?</h3>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>100% yes. You get all the files and full access. No monthly fees to me to keep it online. Just hosting + domain.</p>
+      </div>
+    </div>
+
+    <div class="card faq-item" onclick="toggleFAQ(this)">
+      <div class="faq-question">
+        <h3>Can you update my site later?</h3>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Absolutely. I offer monthly maintenance or you can pay per update. I also teach you how to make small edits yourself.</p>
+      </div>
+    </div>
+
+    <div class="card faq-item" onclick="toggleFAQ(this)">
+      <div class="faq-question">
+        <h3>What's included in the price?</h3>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Design, development, mobile responsive, basic SEO, contact form, and 2 rounds of revisions. Hosting and domain are separate.</p>
+      </div>
+    </div>
+
+    <div class="card faq-item" onclick="toggleFAQ(this)">
+      <div class="faq-question">
+        <h3>Do you work with clients outside SA?</h3>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes! I work with clients worldwide. We’ll communicate via WhatsApp, email, and Zoom.</p>
+      </div>
+    </div>
+
+    <div class="card faq-item" onclick="toggleFAQ(this)">
+      <div class="faq-question">
+        <h3>How do we get started?</h3>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Just send me a message on the Contact page. We'll do a quick call to plan it, then I send you a quote and timeline.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+  </main>
+  <footer><p>© 2026 WebCorp. Built with care.</p></footer>
+<script>
+function toggleFAQ(element) {
+  element.classList.toggle('active');
+}
+</script>
+</body>
+</html>
